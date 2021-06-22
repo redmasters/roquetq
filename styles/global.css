@@ -26,6 +26,7 @@ html {
 }
 
 body {
+    display: flex;
     height: 100vh;
     background: var(--background);
 }
@@ -64,7 +65,7 @@ input, button, .button {
 }
 
 button, .button {
-    font-family: 'Popins';
+    font-family: 'Poppins';
     font-weight: 500;
     line-height: 0;
 
@@ -91,8 +92,8 @@ button > img
 
 }
 
-button.outlined,
-.button.outlined {
+.button.outlined,
+button.outlined {
    background: var(--white); 
    color: var(--blue);
    border: .2rem solid var(--blue); 
