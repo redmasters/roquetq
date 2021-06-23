@@ -50,7 +50,7 @@
     font-size: 2.8rem;
     color: var(--black);
     font-weight: 700;
-    line-height: 2.2rem;
+    line-height: 4.2rem;
 
     margin-bottom: 2.4rem;
 }
@@ -64,10 +64,10 @@
 
 }
 
-#question-form textarea {
+#question-form form textarea {
     width: 100%;
     resize: none;
-    background: none;
+    background: transparent;
 
     outline: none;
 }
@@ -158,6 +158,8 @@
 .question-wrapper .actions > a + a{
     margin-left: 2.4rem;
 }
+
+/* Question Read */
 
 .question-wrapper.read{
    background: var(--grey-medium);

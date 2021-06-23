@@ -99,6 +99,8 @@ button.outlined {
    border: .2rem solid var(--blue); 
 }
 
+
+/* Header */
 .content header {
     width: 80%;
     margin: 3.5rem auto;
