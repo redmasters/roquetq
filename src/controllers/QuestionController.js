@@ -22,8 +22,6 @@ module.exports = {
             res.redirect(`/room/${roomId}`)
 
         }
-
-
     },
 
     async create(req, res) {
@@ -42,5 +40,5 @@ module.exports = {
         )`)
         
         res.redirect(`/room/${roomId}`)
-    },
+    }
 }
