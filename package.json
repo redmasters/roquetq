@@ -1,7 +1,7 @@
 {
   "name": "roquetq",
   "version": "1.0.0",
-  "description": "Projeto desenvolvidos para gerenciar perguntas anonimas.",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas.",
   "main": "src/server.js",
   "scripts": {
     "start": "nodemon .",
