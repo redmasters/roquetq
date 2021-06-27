@@ -1,4 +1,5 @@
 const Database = require('../db/config')
+
 module.exports = {
     async index(req, res) {
         const db = await Database();
@@ -20,7 +21,8 @@ module.exports = {
 
             }
             res.redirect(`/room/${roomId}`)
-
+        } else {
+            res.render('passincorrect', {roomId: roomId})
         }
     },
 
