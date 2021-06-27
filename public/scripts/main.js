@@ -3,7 +3,7 @@ import Modal from './modal.js'
 const modal = Modal()
 const modalTitle = document.querySelector('.modal h2')
 const modalDescription = document.querySelector('.modal p')
-const modalButon = document.querySelector('.modal button')
+const modalButon = document.querySelector('.modal .buttons button')
 
 // Pegar todos os botoes com a class check
 const checkButtons = document.querySelectorAll(".actions a.check")
@@ -39,6 +39,7 @@ function handleClick(event, check = true) {
     modalButon.innerHTML = `Sim, ${text.toLowerCase()}`
     check ? modalButon.classList.remove("red") : modalButon.classList.add("red")
 
+    event.preventDefault()
     // Abrir modal    
     modal.open()
 }
