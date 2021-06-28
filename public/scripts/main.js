@@ -1,9 +1,10 @@
 import Modal from './modal.js'
 
 const modal = Modal()
+
 const modalTitle = document.querySelector('.modal h2')
 const modalDescription = document.querySelector('.modal p')
-const modalButon = document.querySelector('.modal .buttons button')
+const modalButon = document.querySelector('.modal button')
 
 // Pegar todos os botoes com a class check
 const checkButtons = document.querySelectorAll(".actions a.check")
@@ -31,7 +32,7 @@ function handleClick(event, check = true) {
     const text = check ? "Marcar como lida" : "Excluir" 
     
     const form = document.querySelector(".modal form")
-    form.setAttribute("action", `question/${roomId}/${questionId}/${slug}`)
+    form.setAttribute("action", `/question/${roomId}/${questionId}/${slug}`)
 
 
     modalTitle.innerHTML = `${text} esta pergunta`

@@ -9,6 +9,7 @@ route.get('/create-pass', (req, res) => res.render("index", {page: 'create-pass'
 
 route.post('/create-room', RoomControler.create)
 route.get('/room/:room', RoomControler.open)
+route.post('/enterrom', RoomControler.enter)
 
 route.post('/question/create/:room', QuestionController.create)
 route.post('/question/:room/:question/:action', QuestionController.index)
