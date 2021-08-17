@@ -26,10 +26,10 @@ O Rocket.Q é uma aplicação de interação através de perguntas, sendo possí
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/vp3iFfd1ohCbHyDX9jCiQi/Roquet.q). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-## Usando
+## Rodando o projeto
 
 Clone o projeto:
-- ``git clone https://github.com/redmasters/roquetq/``
+- ``git clone https://github.com/redmasters/roquetq.git``
 
 Na pasta do projeto instale as depedencias:
 - ``cd roquetq``
