@@ -29,12 +29,17 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 ## Usando
 
 Clone o projeto:
-- git clone https://github.com/redmasters/roquetq/
+- ``git clone https://github.com/redmasters/roquetq/``
+
 Na pasta do projeto instale as depedencias:
-- cd roquetq
-- npm install
+- ``cd roquetq``
+
+- ``npm install``
+
 Inicie o banco de dados:
-- npm run init-db
+- ``npm run init-db``
+
 Rode o projeto:
 - npm run start
+ 
 Acesse-o via htts://localhost:3000
