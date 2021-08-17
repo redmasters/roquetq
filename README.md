@@ -40,6 +40,6 @@ Inicie o banco de dados:
 - ``npm run init-db``
 
 Rode o projeto:
-- npm run start
+- ``npm run start``
  
-Acesse-o via htts://localhost:3000
+Acesse-o via https://localhost:3000
