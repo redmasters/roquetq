@@ -25,3 +25,16 @@ O Rocket.Q é uma aplicação de interação através de perguntas, sendo possí
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/vp3iFfd1ohCbHyDX9jCiQi/Roquet.q). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+## Usando
+
+Clone o projeto:
+- git clone https://github.com/redmasters/roquetq/
+Na pasta do projeto instale as depedencias:
+- cd roquetq
+- npm install
+Inicie o banco de dados:
+- npm run init-db
+Rode o projeto:
+- npm run start
+Acesse-o via htts://localhost:3000
