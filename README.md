@@ -42,4 +42,4 @@ Inicie o banco de dados:
 Rode o projeto:
 - ``npm run start``
  
-Acesse-o via https://localhost:3000
+Acesse-o via http://localhost:3000/
